@@ -1,0 +1,37 @@
+.container {
+    margin: auto;
+    width: 320px;
+}
+
+.text-field {
+    width: 320px;
+    background-color: antiquewhite;
+    height: 55px;
+    padding: 5px;
+
+}
+
+.text-field input {
+    width: 310px;
+    height: 50px;
+    font-size: 32px;
+}
+
+.container-tombol {
+    background-color: antiquewhite;
+    width: 320px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px; 
+}
+
+.tombol, #reset {
+    width: 70px;
+    background-color: beige;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+
+}
